@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30309.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DvdRentalDomain", "DvdRentalDomain\DvdRentalDomain.csproj", "{D224CFE1-29C9-4994-AD60-8CE277A0F2E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DvdRentalApi", "DvdRentalApi\DvdRentalApi.csproj", "{CEF47A70-C220-42B9-BCE2-08B6DE27FCF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D224CFE1-29C9-4994-AD60-8CE277A0F2E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D224CFE1-29C9-4994-AD60-8CE277A0F2E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D224CFE1-29C9-4994-AD60-8CE277A0F2E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D224CFE1-29C9-4994-AD60-8CE277A0F2E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEF47A70-C220-42B9-BCE2-08B6DE27FCF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEF47A70-C220-42B9-BCE2-08B6DE27FCF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEF47A70-C220-42B9-BCE2-08B6DE27FCF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEF47A70-C220-42B9-BCE2-08B6DE27FCF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {424EEE23-AA88-4D3D-AA0E-1087444191CD}
+	EndGlobalSection
+EndGlobal
