@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using System;
 
 namespace DvdRentalDomain.Entities
 {
@@ -42,7 +43,7 @@ namespace DvdRentalDomain.Entities
             {
                 //warning To protect potentially sensitive information in your 
                 //connection string, you should move it out of source code.See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseNpgsql("Host=127.0.0.1;Database=dvdrental;Username=Welder;Password=rock;");
+                optionsBuilder.UseNpgsql(Environment.GetEnvironmentVariable("DvdRentalConnectionString"));
             }
         }
 
