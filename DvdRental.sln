@@ -7,6 +7,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DvdRentalDomain", "DvdRenta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DvdRentalApi", "DvdRentalApi\DvdRentalApi.csproj", "{CEF47A70-C220-42B9-BCE2-08B6DE27FCF3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{12E3DDC2-547C-4DD2-98D0-6A72C1564CAE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{C29AA9AA-500B-4B64-9D82-E2D3EF1B2312}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{0F1FC68B-44B8-4688-8BEF-F9D0BEB67BCB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{DB2D2887-12F6-4758-A703-C416037065AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +32,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D224CFE1-29C9-4994-AD60-8CE277A0F2E3} = {0F1FC68B-44B8-4688-8BEF-F9D0BEB67BCB}
+		{CEF47A70-C220-42B9-BCE2-08B6DE27FCF3} = {12E3DDC2-547C-4DD2-98D0-6A72C1564CAE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {424EEE23-AA88-4D3D-AA0E-1087444191CD}
