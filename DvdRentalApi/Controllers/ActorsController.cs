@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 
 namespace DvdRentalApi.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Produces("application/json")]
+    [Route("api/[controller]")]
     public class ActorsController : ControllerBase
     {
         private readonly DvdRentalContext _context;
